@@ -2,7 +2,7 @@
 import  express, { application }  from 'express';
 // import { resetPassword, sendOtp, validateOtp } from '../controllers/password.controller.js';
 import { getAllAdmin, getMyProfile, login, logout, register, updateUser } from '../controllers/user.controller.js';
-import { isAdmin, isAuthenticated } from '../Middleware/authUser.js';
+import { isAdmin, isAuthenticated } from '../middleware/authUser.js';
 
 
 const router=express.Router();
