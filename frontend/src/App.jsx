@@ -3,7 +3,7 @@ import { Toaster } from "react-hot-toast";
 import { FiHome } from "react-icons/fi";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import lostItem from "./components/Lostitem";
 import DashBoard from "./pages/Dashboard";
 import Login from "./pages/Login";
